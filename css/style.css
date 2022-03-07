@@ -1,0 +1,36 @@
+body {
+    background-color: #FFA07A;
+}
+.tab {
+    display: none;
+}
+.tab-active {
+    display: block;
+}
+.nav-link.active button{
+    color: white;
+}
+.nav-tabs .nav-link.active {
+    background-color: #0d6efdc7;
+    border: 1px solid #00000040;
+}
+.list-group-item {
+    padding: 1rem 1rem;
+}
+.btn:focus {
+    box-shadow: none;
+}
+.person-title,
+.car-title {
+    color: #198754;
+    border-bottom: 1px solid #dee2e6;
+}
+.edit-person-title,
+.edit-car-title {
+    color: #ffc107;
+}
+.example-text {
+    font-size: 11px;
+    color: gray;
+    margin-top: 4px;
+}
