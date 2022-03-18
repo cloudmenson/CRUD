@@ -1,0 +1,47 @@
+ul {
+  padding-left: 1rem;
+  margin-top: 5px;
+}
+.hidden {
+  display: none;
+}
+.tab {
+  display: none;
+}
+.btn-edit,
+.btn-edit-car {
+  margin-right: 6px;
+}
+.tab-active {
+  display: block;
+}
+.nav-link.active button {
+  color: white;
+}
+.nav-tabs .nav-link.active {
+  background-color: #0d6efdc7;
+  border: 1px solid #00000040;
+}
+.list-group-item {
+  padding: 1rem 1rem;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.person-title,
+.car-title {
+  color: #198754;
+  border-bottom: 1px solid #dee2e6;
+}
+.edit-person-title,
+.edit-car-title {
+  color: #ffc107;
+}
+.example-text {
+  font-size: 11px;
+  color: gray;
+  margin-top: 4px;
+}
+.list-required li {
+  color: red;
+}
